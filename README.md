@@ -6,7 +6,15 @@ fix bugs for [xcpretty](https://github.com/xcpretty/xcpretty) without changing x
 
 # usage
 
-see `tests/test.sh` and copy.
+copy and use.
+
+```
+xcpretty_wrapper="XXX/scripts/xcpretty_fix.sh"
+chmod +x "${xcpretty_wrapper}"
+xcodebuild xxx | ${xcpretty_wrapper}
+```
+
+# test
 
 ```
 bash tests/test.sh
