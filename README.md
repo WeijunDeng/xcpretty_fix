@@ -1,10 +1,12 @@
-fix bugs for xcpretty
+# xcpretty_fix
 
-- [x] fixed hidden `Undefined symbols`
+fix bugs for [xcpretty](https://github.com/xcpretty/xcpretty) without changing xcpretty.
 
-# Usage
+- [x] fixed hidden `Undefined symbols` like [this issue](https://github.com/xcpretty/xcpretty/issues/380)
 
-see `tests/test.sh`
+# usage
+
+see `tests/test.sh` and copy.
 
 ```
 bash tests/test.sh
