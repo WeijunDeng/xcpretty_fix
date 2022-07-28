@@ -1,5 +1,8 @@
 Undefined symbols for architecture armv7:
   "_kQYPublisherVoteComonentDeleted", referenced from:
       -[QYPHAssetsPickerViewController initWithSettings:] in libQYPhoto.a(QYPHAssetsPickerViewController.o)
+Undefined symbols for architecture arm64:
+  "abc for abc", referenced from:
+      xyz for xyz in xyz.o
 ld: symbol(s) not found for architecture armv7
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
